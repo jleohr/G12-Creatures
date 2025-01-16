@@ -1,4 +1,4 @@
-//© A+ Computer Science
+//Â© A+ Computer Science
 // www.apluscompsci.com
 
 //ArrayList of User-defined Classes
@@ -14,14 +14,14 @@ public class Herd
 	public Herd()
 	{
 		//point list a new ArrayList
-		list = new ArrayList<Creature>();
+		
 
 	}
 
 	public void add(int creatureSize)
 	{
 		//add a new Creature to the list
-		list.add(new Creature(creatureSize));
+		
 	}
 
 	/* method countBigOnes should return the count of
@@ -29,15 +29,7 @@ public class Herd
 	*/
 	public int countBigOnes()
 	{
-		int count = 0;
-
-		for(Creature thing: list)
-		{
-			if(thing.isBig())
-				count++;
-		}
-
-		return count;
+		
 	}
 
 	public String toString()
